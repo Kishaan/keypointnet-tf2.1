@@ -6,14 +6,22 @@ This is a re-implementation of the keypoint network proposed in "Discovery of La
 
 ### Planes
 
+![Planes](https://github.com/Kishaan/keypointnet-tf2.1/blob/master/output_images/plane_working.png)
+
+### Planes deformed
+
+![Planes_deformed](https://github.com/Kishaan/keypointnet-tf2.1/blob/master/output_images/plane_deformed.png)
+
 ### Cars
+
+![Cars_deformed](https://github.com/Kishaan/keypointnet-tf2.1/blob/master/output_images/car_working.png)
 
 As seen in the images, the network is able to consistently detect the keypoints even with out of plane rotations. 
 
-## Team members
+## Team Members
 
-[Kishaan Jeeveswaran](https://github.com/Kishaan)
-[Swaroop Bhandary K](https://github.com/swaroop1904)
+[Kishaan Jeeveswaran](https://github.com/Kishaan), 
+[Swaroop Bhandary K](https://github.com/swaroop1904), 
 [Deepan Chakravarthi Padmanabhan](https://github.com/DeepanChakravarthiPadmanabhan)
 
 ## Reference
