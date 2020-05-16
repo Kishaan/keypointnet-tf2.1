@@ -1,6 +1,8 @@
 # KeypointNet
 
-This is a re-implementation of the keypoint network proposed in "Discovery of Latent 3D Keypoints via End-to-end Geometric Reasoning [[pdf](https://arxiv.org/pdf/1807.03146.pdf)]". The keypointnet predicts a consistent set of keypoints on a single image. The predicted keypoints can then be used for various downstream tasks such as detection and 3D pose estimation.  
+This is a re-implementation of the keypoint network proposed in "Discovery of Latent 3D Keypoints via End-to-end Geometric Reasoning [[pdf](https://arxiv.org/pdf/1807.03146.pdf)]". The network predicts a consistent set of 3D keypoints on a single image using a novel multi-view geometric loss function. The predicted keypoints can then be used for various downstream tasks such as detection and 3D pose estimation.  
+
+Dataset used: [ShapeNet](https://www.shapenet.org)
 
 ## Sample Results
 
@@ -12,11 +14,15 @@ This is a re-implementation of the keypoint network proposed in "Discovery of La
 
 ### Planes deformed
 
-![Planes_deformed](https://github.com/Kishaan/keypointnet-tf2.1/blob/master/output_images/plane_deformed.png)
+<p align="center">
+  <img src="https://github.com/Kishaan/keypointnet-tf2.1/blob/master/output_images/plane_deformed.png">
+</p>
 
 ### Cars
 
-![Cars_deformed](https://github.com/Kishaan/keypointnet-tf2.1/blob/master/output_images/car_working.png)
+<p align="center">
+  <img src="https://github.com/Kishaan/keypointnet-tf2.1/blob/master/output_images/car_working.png">
+</p>
 
 As seen in the images, the network is able to consistently detect the keypoints even with out of plane rotations. 
 
