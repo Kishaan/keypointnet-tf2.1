@@ -6,7 +6,9 @@ This is a re-implementation of the keypoint network proposed in "Discovery of La
 
 ### Planes
 
-![Planes](https://github.com/Kishaan/keypointnet-tf2.1/blob/master/output_images/plane_working.png)
+<p align="center">
+  <img src="https://github.com/Kishaan/keypointnet-tf2.1/blob/master/output_images/plane_working.png">
+</p>
 
 ### Planes deformed
 
